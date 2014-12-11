@@ -1,0 +1,12 @@
+# Site settings
+title: "Kristine + Shane"
+email: shane@shanelogsdon.com
+description: > # this means to ignore newlines until "baseurl:"
+  Kristine Dauer and Shane Logsdon are getting married! Follow along for
+  the best information about the festivities.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.kristineandshane.com" # the base hostname & protocol for your site
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown

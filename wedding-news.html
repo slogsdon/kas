@@ -1,0 +1,32 @@
+---
+layout: default
+title: Wedding News
+permalink: /wedding-news/
+---
+
+<section class="posts">
+  <h1 class="post-title">Wedding News</h1>
+
+  {% for post in site.posts %}
+    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+    {% if month != nmonth %}
+    <h2>{{ post.date | date: '%B %Y' }}</h2>
+    {% endif %}
+    <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+      <meta itemprop="inLanguage" content="en-US"/>
+      <aside>
+        <h3 class="external" itemprop="name">
+          <a itemprop="url" href="{{ site.url }}{{ post.url }}/">{{ post.title }}</a>
+          <time itemprop="datePublished" content="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        </h3>
+      </aside>
+      <section>
+        <div class="intro">
+          <p>{{ post.excerpt | strip_html }}</p>
+          <p><a href="{{ post.url }}/" class="read-more">Continue Reading</a></p>
+        </div>
+      </section>
+    </article>
+  {% endfor %}
+</section>
