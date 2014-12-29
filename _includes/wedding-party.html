@@ -1,0 +1,36 @@
+<section class="wedding-party">
+  <table class="table">
+    <tr>
+      <td class="bridesmaids">
+        {% for person in site.data.party.bridesmaids %}
+          <article class="party-member">
+            <div class="name">{{ person.name }}</div>
+            <div class="role">
+              {% if person.maid_of_honor %}
+                Maid of Honor
+              {% else %}
+                Bridesmaid
+              {% endif %}
+            </div>
+            <div class="story">{{ person.story }}</div>
+          </article>
+        {% endfor %}
+      </td>
+      <td class="groomsmen">
+        {% for person in site.data.party.groomsmen %}
+          <article class="party-member">
+            <div class="name">{{ person.name }}</div>
+            <div class="role">
+              {% if person.best_man %}
+                Best Man
+              {% else %}
+                Groomsman
+              {% endif %}
+            </div>
+            <div class="story">{{ person.story }}</div>
+          </article>
+        {% endfor %}
+      </td>
+    </tr>
+  </table>
+</section>

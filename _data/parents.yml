@@ -1,0 +1,15 @@
+- name: Marianne Dauer
+  hers: true
+  mother: true
+
+- name: David Dauer
+  hers: true
+  father: true
+
+- name: Stephanie Logsdon
+  his: true
+  mother: true
+
+- name: Tony Logsdon
+  his: true
+  father: true

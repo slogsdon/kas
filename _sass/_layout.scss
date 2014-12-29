@@ -234,3 +234,43 @@
         }
     }
 }
+
+.parent {
+    width: 50%;
+}
+
+.parent .name, .parent .relation {
+    clear: right;
+    display: inline;
+    width: 50%;
+}
+
+.parent .relation {
+    float: right;
+}
+
+.table {
+    width: 100%;
+}
+
+.table .bridesmaids, .table .groomsmen {
+    width: 50%;
+}
+
+.party-member {
+    margin-bottom: 10px;
+}
+
+.table .name, .table .role {
+    display: inline;
+    margin: 0;
+    width: 50%;
+}
+
+.table .role {
+    float: right;
+}
+
+.table .story {
+    clear: right;
+}

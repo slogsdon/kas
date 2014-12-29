@@ -1,0 +1,13 @@
+<section class="parents">
+  {% for person in site.data.parents %}
+    <article class="parent">
+      <div class="name">{{ person.name }}</div>
+      <div class="relation">
+        {% if person.hers %}Kristine's{% endif %}
+        {% if person.his %}Shane's{% endif %}
+        {% if person.mother %}Mother{% endif %}
+        {% if person.father %}Father{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>
