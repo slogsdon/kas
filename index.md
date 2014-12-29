@@ -5,9 +5,9 @@ title: "Kristine + Shane"
 
 # Kristine and Shane are getting married!
 
-Hi there! Kristine and I are super excited to be getting hitched, and we're glad you could stop by. If you need any information from us about the wedding, take a look further down the page for the main details or follow one of the links below for some more details.
+Hi there! We are super excited to be getting hitched, and we're glad you could stop by. If you need any information from us about the wedding, take a look further down the page for the main details or follow one of the links below for some more details.
 
-&mdash; Shane
+&mdash; Kristine + Shane
 
 1. [Information](/information/)
 2. [RSVP](/rsvp/)
