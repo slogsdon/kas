@@ -10,15 +10,10 @@ Hi there! We are super excited to be getting hitched, and we're glad you could s
 &mdash; Kristine + Shane
 
 1. [Information](/information/)
-2. [RSVP](/rsvp/)
-3. [Photos](/photos/)
-4. [Frequently Asked Questions](/frequently-asked-questions/)
 
-## Latest News
+## RSVP
 
-{% include last-post.html %}
-
-[Other news &rarr;](/wedding-news/)
+{% include rsvp-form.html %}
 
 ## Brief Information
 
