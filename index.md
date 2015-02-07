@@ -12,6 +12,7 @@ Hi there! We are super excited to be getting hitched, and we're glad you could s
 <img src="/images/engagement/20150125-1.jpg" style="width: 25%; height: auto; float: right; margin-left: 10px;" />
 
 1. [Information](/information/)
+2. [Photos](/photos/)
 
 ## RSVP
 
