@@ -9,6 +9,8 @@ Hi there! We are super excited to be getting hitched, and we're glad you could s
 
 &mdash; Kristine + Shane
 
+<img src="/images/engagement/20150125-1.jpg" style="width: 25%; height: auto; float: right; margin-left: 10px;" />
+
 1. [Information](/information/)
 2. [RSVP](/rsvp/)
 3. [Photos](/photos/)
