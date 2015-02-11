@@ -25,6 +25,8 @@ There is a block of rooms available for those who wish to stay in the hotel duri
 - King $124
 - Double Queen $134
 
+Guest rooms will be held by the hotel until 4/15/2015.
+
 ## Meet the Wedding Party
 
 {% include wedding-party.html %}
